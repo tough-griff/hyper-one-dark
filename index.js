@@ -19,7 +19,7 @@ const colors = [
   '#56b6c2', // blue
   '#C678DD', // pink
   '#56B6C2', // cyan
-  '#ffffff' // white
+  '#ffffff', // white
   foregroundColor
 ]
 
