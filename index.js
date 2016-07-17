@@ -1,8 +1,8 @@
 
-const backgroundColor = '#21252b'
+const backgroundColor = '#282c34'
 const foregroundColor = '#abb2bf'
 const cursorColor = foregroundColor
-const borderColor = 'rgba(255, 0, 0, .25)'
+const borderColor = backgroundColor
 
 const colors = [
   backgroundColor,
@@ -10,16 +10,16 @@ const colors = [
   '#98c379', // green
   '#d19a66', // yellow
   '#56b6c2', // blue
-  '#C678DD', // pink
-  '#56B6C2', // cyan
+  '#c678dd', // pink
+  '#56b6c2', // cyan
   '#d0d0d0', // light gray
   '#808080', // medium gray
   '#e06c75', // red
   '#98c379', // green
   '#d19a66', // yellow
   '#56b6c2', // blue
-  '#C678DD', // pink
-  '#56B6C2', // cyan
+  '#c678dd', // pink
+  '#56b6c2', // cyan
   '#ffffff', // white
   foregroundColor
 ]
@@ -41,14 +41,22 @@ exports.decorateConfig = config => {
     `,
     css: `
       ${config.css || ''}
-      .tab_tab {
-        color: ${foregroundColor} !important;
-        background-color: ${backgroundColor};
+      .header_header {
+        top: 0;
+        right: 0;
+        left: 0;
+      }
+      .tabs_list {
+        background-color: #21252b !important;
+        border-bottom-color: rgba(0,0,0,.15) !important;
       }
       .tab_tab.tab_active {
-        font-weight: bold;
-        color: ${backgroundColor} !important;
-        background-color: ${foregroundColor};
+        font-weight: 500;
+        background-color: ${backgroundColor};
+        border-color: rgba(0,0,0,.27) !important;
+      }
+      .tab_tab.tab_active::before {
+        border-bottom-color: ${backgroundColor};
       }
     `
   })
