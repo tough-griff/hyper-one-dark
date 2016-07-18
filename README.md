@@ -15,7 +15,7 @@ plugins: [
   'hyperterm-atom-dark'
 ],
 ```
-3. Fully reload HyperTerm (`Cmd+Shift+R), and tada!
+3. Fully reload HyperTerm (`Cmd+Shift+R`), and tada!
 
 ### License
 
