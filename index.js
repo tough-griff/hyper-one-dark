@@ -25,8 +25,6 @@ const colors = [
 ]
 
 exports.decorateConfig = config => {
-  console.log('Hi mom!')
-
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
