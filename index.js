@@ -37,6 +37,13 @@ exports.decorateConfig = config => {
         mix-blend-mode: difference;
         border-left-width: 2px;
       }
+      ::-webkit-scrollbar {
+        width: 4px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #3c424e;
+      }
     `,
     css: `
       ${config.css || ''}
