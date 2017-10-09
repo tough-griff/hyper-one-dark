@@ -1,6 +1,6 @@
 # Atom One Dark for HyperTerm
 
-[HyperTerm](https://hyperterm.org) theme based on [the Atom One Dark theme](https://github.com/atom/one-dark-syntax). Forked from @jxnblk's [HyperTerminator](https://github.com/jxnblk/hyperterminator) and modified by @mdo.
+[Hyper](https://hyper.is) theme based on [the Atom One Dark theme](https://github.com/atom/one-dark-syntax). Forked from @jxnblk's [HyperTerminator](https://github.com/jxnblk/hyperterminator) and modified by @mdo.
 
 ![Screenshot at start](https://cloud.githubusercontent.com/assets/98681/16899205/f644411e-4baf-11e6-851a-930070779867.png)
 ![Screenshot with tabs](https://cloud.githubusercontent.com/assets/98681/16899206/f644c080-4baf-11e6-890d-fd5c628c7991.png)
